@@ -1,8 +1,14 @@
+
+body{
+    
+
+}
+
 main {
-    background-color: red;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center; 
+    min-height: 85vh;   
 }
 
 /* Style the navigation bar */
@@ -68,12 +74,13 @@ ul {
 
 .container1 {
     min-width: 80%;
-    min-height: 400px;
+    /* min-height: 100%; */
+    margin: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(100, 5, 100);
+    border: rgb(100, 5, 100);
     background-color: rgb(138, 30, 239);
 }
 
@@ -89,6 +96,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1em;
     color: aqua;
     font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -97,9 +105,19 @@ ul {
     height: 100px;
 }
 
+#quoteDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    margin: 1em;
+}
+
 footer {
     text-align: center;
     padding: 3px;
     background-color: #dceaee;
     color: rgb(9, 9, 9);
-  }
+}
